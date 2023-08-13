@@ -75,9 +75,9 @@
 			children = (
 				1520C71129F2EEEA0066DE07 /* SupplierShopApp.swift */,
 				1520C71329F2EEEA0066DE07 /* ContentView.swift */,
-				1520C72129F2EF7B0066DE07 /* ViewModel */,
-				1520C71F29F2EF440066DE07 /* View */,
 				1520C72029F2EF540066DE07 /* Model */,
+				1520C71F29F2EF440066DE07 /* Views */,
+				1520C72129F2EF7B0066DE07 /* ViewModels */,
 				1520C71529F2EEEC0066DE07 /* Assets.xcassets */,
 				15F44DEC29F6ADF60096D39C /* intro.lottie.json */,
 				1520C72229F2EFA00066DE07 /* vendors.json */,
@@ -94,7 +94,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1520C71F29F2EF440066DE07 /* View */ = {
+		1520C71F29F2EF440066DE07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				15F44DEE29F6AF460096D39C /* SupplierCardView.swift */,
@@ -102,7 +102,7 @@
 				15F44DE729F69ADA0096D39C /* SplashScreenView.swift */,
 				15F44DE529F69A840096D39C /* RootView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1520C72029F2EF540066DE07 /* Model */ = {
@@ -113,13 +113,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1520C72129F2EF7B0066DE07 /* ViewModel */ = {
+		1520C72129F2EF7B0066DE07 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				1520C72629F2F79B0066DE07 /* DataLoader.swift */,
 				15BED40F29FC4C86009441B1 /* PaginationLogic.swift */,
 			);
-			path = ViewModel;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

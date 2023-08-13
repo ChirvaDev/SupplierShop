@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct NoResultsView: View {
     @Environment(\.presentationMode) var presentationMode
     

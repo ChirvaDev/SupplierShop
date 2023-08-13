@@ -43,21 +43,23 @@ struct SupplierCardView: View {
                     }
                 }
             }
-            
-            Text(vendor.areaServed)
-                .foregroundColor(.black)
-                .padding(5)
-                .background(Color.white)
-                .opacity(0.7)
-                .clipShape(Capsule())
-                .offset(x: -135, y: 20)
+            HStack{
+                Text(vendor.areaServed)
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.black)
+                    .padding(5)
+                    .background(Color.white)
+                    .opacity(0.7)
+                    .clipShape(Capsule())
+                Spacer()
+            }
+            . offset(x: 8, y: 24)
         }
     }
 }
 
 struct SupplierCardView_Previews: PreviewProvider {
     static var previews: some View {
-        //ContentView()
         SupplierCardView(vendor: .init(
             id: 99,
             companyName: "Florists + Fashion",
